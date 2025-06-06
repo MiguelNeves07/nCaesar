@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nCaesar</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <h1>nCaesar — Caesar Cipher Tool</h1>
+
+  <label for="text">Text:</label>
+  <textarea id="text" rows="4" placeholder="Enter your text here..."></textarea>
+
+  <label for="shift">Shift:</label>
+  <input type="number" id="shift" value="3" />
+
+  <button onclick="encrypt()">Encrypt</button>
+  <button onclick="decrypt()">Decrypt</button>
+
+  <div id="output"></div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
